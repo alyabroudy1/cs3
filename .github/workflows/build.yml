@@ -34,22 +34,33 @@ jobs:
         run: |
           ./gradlew make makePluginsJson
           
-      - name: Push to builds branch
+      - name: Create build folder and copy files
+        run: |
+          mkdir -p build
+          find . -path ./build -prune -o -name "*.cs3" -exec cp {} build/ \;
+          if [ -f "build/plugins.json" ]; then
+            # plugins.json is already in build folder from makePluginsJson
+            echo "plugins.json found in build folder"
+          fi
+          
+      - name: Commit and push to main
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
+          git add build/
+          git add plugins.json 2>/dev/null || true
+          # Copy plugins.json to root as well (like Arabico)
+          cp build/plugins.json . 2>/dev/null || true
+          git add plugins.json 2>/dev/null || true
+          git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git push origin main
+          
+      - name: Also push to builds branch for compatibility
+        run: |
           git checkout --orphan builds
           git reset
-          
-          # Copy all .cs3 files to root
-          find . -name "*.cs3" -exec cp {} . \;
-          
-          # Copy plugins.json if it exists
-          if [ -f "build/plugins.json" ]; then
-            cp build/plugins.json .
-          fi
-          
-          # Add and commit
-          git add *.cs3 plugins.json 2>/dev/null || git add *.cs3
-          git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          cp build/*.cs3 . 2>/dev/null || true
+          cp build/plugins.json . 2>/dev/null || true
+          git add *.cs3 plugins.json
+          git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')"
           git push -f origin builds
