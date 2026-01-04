@@ -1,0 +1,8 @@
+{
+    "name": "CS3 Arabic Extensions",
+    "description": "Arabic content providers for CloudStream including MyCima and FaselHD",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/alyabroudy1/cs3/builds/plugins.json"
+    ]
+}

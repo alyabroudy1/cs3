@@ -59,6 +59,18 @@ jobs:
           # Copy files from build folder
           cp build/*.cs3 . 2>/dev/null || find . -name "*.cs3" ! -path "./build/*" -exec cp {} . \;
           cp build/plugins.json . 2>/dev/null || true
-          git add -f *.cs3 plugins.json
+          # Create repo.json manifest for CloudStream
+          cat > repo.json << 'EOF'
+          {
+              "name": "CS3 Arabic Extensions",
+              "description": "Arabic content providers for CloudStream including MyCima and FaselHD",
+              "manifestVersion": 1,
+              "pluginLists": [
+                  "https://raw.githubusercontent.com/alyabroudy1/cs3/builds/plugins.json"
+              ]
+          }
+          EOF
+          git add -f *.cs3 plugins.json repo.json
           git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')"
           git push -f origin builds
+
