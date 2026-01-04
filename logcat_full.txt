@@ -1,0 +1,1019 @@
+﻿--------- beginning of main
+01-04 02:14:22.947  2701  2701 D HomeActivity: showGuestPopup : 1
+01-04 02:14:22.947  2701  2701 D HomeActivity: showNowggLoginPopup : 1
+--------- beginning of system
+01-04 02:14:22.949  2013  8492 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.bluestacks.filemanager/.MainActivity} from uid 10047
+01-04 02:14:22.950  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.bluestacks.filemanager activityName: com.bluestacks.filemanager.MainActivity callingPackage: com.uncube.launcher3  bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:22.962  2701  2823 D SessionLifecycleClient: Sending lifecycle 2 to service
+01-04 02:14:22.962  2701  2995 D SessionLifecycleService: Activity backgrounding at 5904773
+01-04 02:14:22.964  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.bluestacks.filemanager activityName: com.bluestacks.filemanager/.MainActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:22.990  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 expire 2 lines
+01-04 02:14:23.023  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:23.044  2013  8492 I ActivityManager: Config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w1280dp h696dp 240dpi xlrg long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.12}
+01-04 02:14:23.073  2013  8492 I ActivityManager: Override config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w1280dp h696dp 240dpi xlrg long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.12} for displayId=0
+01-04 02:14:23.079  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:23.082  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:23.141  1845  1845 I chatty  : uid=1000(system) /system/bin/surfaceflinger expire 1 line
+01-04 02:14:23.147  2013  2029 W Looper  : Slow dispatch took 177ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=31
+01-04 02:14:23.154  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 expire 1 line
+01-04 02:14:23.163  2197  2197 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+01-04 02:14:23.164  2013  2036 W WindowManager: App freeze timeout expired.
+01-04 02:14:23.183  2013  2115 I chatty  : uid=1000(system) InputReader expire 4 lines
+01-04 02:14:23.260  1845  2445 I chatty  : uid=1000(system) Binder:1845_4 expire 1 line
+01-04 02:14:23.275  2701  2959 D EGL_emulation: eglMakeCurrent: 0x725a12169600: ver 3 2 (tinfo 0x725a1212bc00)
+01-04 02:14:23.302  9203  9203 D GeckoScreenOrientation: updating to new orientation LANDSCAPE_PRIMARY
+01-04 02:14:23.353  2013  2355 W ActivityManager: Receiver with filter android.content.IntentFilter@a0ace60 already registered for pid 5120, callerPackage is com.bluestacks.filemanager
+01-04 02:14:23.354  2013  2355 W ActivityManager: Receiver with filter android.content.IntentFilter@fbb4f19 already registered for pid 5120, callerPackage is com.bluestacks.filemanager
+01-04 02:14:23.389  2013  2355 D WindowManager: calling BstHostCallManagerService onActivityDisplayed method, packageName: com.bluestacks.filemanager, activityName: com.bluestacks.filemanager.MainActivity
+01-04 02:14:23.390  2013  2355 D WindowManager: BstHostCallManagerService onActivityDisplayed method returned: 0
+01-04 02:14:23.390  2013  2045 I chatty  : uid=1000 system_server expire 4 lines
+01-04 02:14:23.390  2013  2355 D WindowManager: calling BstHostCallManagerService setAppConfigDbParams method, packageName: com.bluestacks.filemanager, macrosDisabled: false, showFeedbackPopup: false, mouseCursorStyle: default, nativeGamepad: false
+01-04 02:14:23.392  2292  2375 I chatty  : uid=1000(system) com.bluestacks.BstCommandProcessor expire 1 line
+01-04 02:14:23.392  2292  2378 I chatty  : uid=1000(system) com.bluestacks.BstCommandProcessor expire 1 line
+01-04 02:14:23.392  2013  2045 I chatty  : uid=1000 system_server expire 2 lines
+01-04 02:14:23.392  2013  2355 D WindowManager: BstHostCallManagerService setAppConfigDbParams method returned: 0
+01-04 02:14:23.395  2013  2355 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.bluestacks.filemanager  activityName : com.bluestacks.filemanager.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:23.399  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 expire 4 lines
+01-04 02:14:23.473  2197  2197 I ImageWallpaper: Redrawing in rect: RectF(0.0, 0.0, 2880.0, 2560.0) with surface size: 2880x2560
+01-04 02:14:23.501  5120  5171 E EGL_emulation: tid 5171: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:23.501  5120  5171 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0fe52e80, error=EGL_BAD_MATCH
+01-04 02:14:23.512  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:23.520  2519  2519 I chatty  : uid=10004 com.google.android.gms.persistent expire 4 lines
+01-04 02:14:23.588  5120  5132 I cks.filemanage: Background concurrent copying GC freed 13355(782KB) AllocSpace objects, 6(312KB) LOS objects, 49% free, 3MB/7MB, paused 1.291ms total 106.215ms
+01-04 02:14:23.591  5120  5120 E RecyclerView: No adapter attached; skipping layout
+01-04 02:14:23.727  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:23.739  2292  2292 I chatty  : uid=1000(system) com.bluestacks.BstCommandProcessor expire 1 line
+01-04 02:14:23.773  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 expire 2 lines
+01-04 02:14:23.778  2197  8337 W ndroid.systemu: Unknown chunk type '200'.
+01-04 02:14:23.800  2197  8337 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:23.800  2197  8337 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:23.800  2197  8337 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:23.800  2197  8337 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:23.800  2197  8337 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:23.800  2197  8337 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:23.800  2197  8337 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:23.800  2197  8337 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:23.811  2197  8337 W ndroid.systemu: Unknown chunk type '200'.
+01-04 02:14:23.847  2197  2487 E EGL_emulation: tid 2487: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:23.847  2197  2487 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a2fde0200, error=EGL_BAD_MATCH
+01-04 02:14:23.850  2013  8492 D InputMethodManagerService: packageName=com.bluestacks.filemanager, activityName=.MainActivity
+01-04 02:14:23.850  2013  2036 I chatty  : uid=1000(system) android.display expire 1 line
+01-04 02:14:23.850  2013  2045 I chatty  : uid=1000 system_server expire 6 lines
+01-04 02:14:23.851  2013  8492 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:23.851  2013  8492 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:23.853  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:23.855  1845  1965 I chatty  : uid=1000(system) Binder:1845_2 expire 2 lines
+01-04 02:14:23.866  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:23.874  2013  2080 I WindowManager: Screen frozen for +900ms due to Window{80526ca u0 StatusBar}
+01-04 02:14:23.886  1845  1845 I chatty  : uid=1000(system) /system/bin/surfaceflinger expire 4 lines
+01-04 02:14:23.893  5120  5171 E EGL_emulation: tid 5171: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:23.893  5120  5171 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0fe52e80, error=EGL_BAD_MATCH
+01-04 02:14:23.894  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:14:23.896  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:23.897  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:23.928  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:23.996  2701  2701 W LauncherApplication: onTrimMemory() called with: trimLevel = [TRIM_MEMORY_UI_HIDDEN]
+01-04 02:14:24.308  2013  2080 D WindowManager: sendOrientationToHostAsync: calling BstHostCallManagerService onOrientationChange method, orientation: 0
+01-04 02:14:24.309  2013  2080 D WindowManager: sendOrientationToHostAsync: BstHostCallManagerService onOrientationChange method returned: 0
+01-04 02:14:24.309  2013  2045 I HCALL   : hcallOnOrientationChangedRpc(0)
+01-04 02:14:24.309  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:24.309  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:25.059  2701  9329 I FA      : Application backgrounded at: timestamp_millis: 1767489263017
+01-04 02:14:26.029  2013  2036 I system_server: Explicit concurrent copying GC freed 102940(4MB) AllocSpace objects, 36(736KB) LOS objects, 42% free, 10MB/18MB, paused 120us total 139.813ms
+01-04 02:14:26.088  3378  3393 W System  : A resource failed to call close. 
+01-04 02:14:31.554  9203  9233 W Firestore: (24.10.0) [WatchStream]: (a42582a) Stream closed with status: Status{code=CANCELLED, description=Disconnecting idle stream. Timed out waiting for new targets., cause=null}.
+01-04 02:14:32.129  2013  8492 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=content://com.bluestacks.filemanager.provider/external_files/Download/FaselHDProvider.cs3 typ=application/octet-stream flg=0x50000003 cmp=com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity} from uid 10040
+01-04 02:14:32.132  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:14:32.132  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.google.android.gms activityName: com.google.android.gms.pay.deeplink.AliasSavePkPassActivity callingPackage: com.bluestacks.filemanager  bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:32.134  2013  8492 W system_server: Unknown chunk type '200'.
+01-04 02:14:32.156  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.google.android.gms activityName: com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:32.174  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.201  2013  2030 I ActivityManager: Start proc 9338:com.google.android.gms.ui/u0a4 for activity com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity
+01-04 02:14:32.202  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:14:32.213  9338  9338 I Zygote  : seccomp disabled by setenforce 0
+01-04 02:14:32.228  9338  9338 I chatty  : uid=10004 com.google.android.gms.ui identical 30 lines
+01-04 02:14:32.274  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.288  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:32.294  2013  8492 I ActivityManager: Config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w720dp h1256dp 240dpi xlrg long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1080, 1920) mWindowingMode=fullscreen mActivityType=undefined} s.13}
+01-04 02:14:32.294  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.297  2013  8492 I ActivityManager: Override config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w720dp h1256dp 240dpi xlrg long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1080, 1920) mWindowingMode=fullscreen mActivityType=undefined} s.13} for displayId=0
+01-04 02:14:32.297  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:32.297  2013  8492 I chatty  : uid=1000(system) Binder:2013_1C identical 1 line
+01-04 02:14:32.299  2013  8492 D WindowManager: mHasNavigationBar: false
+01-04 02:14:32.307  1845  1845 D DisplayDevice: Open /dev/tty0 OK
+01-04 02:14:32.331  2013  8492 W ActivityManager: Slow operation: 78ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+01-04 02:14:32.335  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:32.343  2292  2292 D BstCommandProcessor-Application: onConfigurationChanged called
+01-04 02:14:32.347  2197  2197 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+01-04 02:14:32.350  9203  9203 D GeckoScreenOrientation: updating to new orientation PORTRAIT_PRIMARY
+01-04 02:14:32.352  2013  2036 D WindowManager: mHasNavigationBar: false
+01-04 02:14:32.354  2013  2036 D WindowManager: mHasNavigationBar: false
+01-04 02:14:32.360  2013  2036 W WindowManager: App freeze timeout expired.
+01-04 02:14:32.360  2013  2036 W WindowManager: Force clearing freeze: AppWindowToken{c6bbefd token=Token{6213f54 ActivityRecord{86bbea7 u0 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity t114}}}
+01-04 02:14:32.362  2013  2115 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 02:14:32.362  2013  2115 I InputReader: Device reconfigured: id=4, name='BlueStacks Virtual Touch', size 1920x1080, orientation 1, mode 1, display id 0
+01-04 02:14:32.362  2013  2036 I WindowManager: Screen frozen for +105ms due to AppWindowToken{c6bbefd token=Token{6213f54 ActivityRecord{86bbea7 u0 com.google.android.gms/.pay.deeplink.AliasSavePkPassActivity t114}}}
+01-04 02:14:32.385  1845  1845 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+01-04 02:14:32.385  1845  1845 D SurfaceFlinger: duplicate layer name: changing BlackSurface to BlackSurface#1
+01-04 02:14:32.397  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:32.397  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:32.397  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:32.398  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:32.398  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:32.398  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:32.398  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:32.398  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:32.426  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.448  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:32.451  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 155648
+01-04 02:14:32.462  2197  2487 E EGL_emulation: tid 2487: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:32.462  2197  2487 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a2fde0200, error=EGL_BAD_MATCH
+01-04 02:14:32.463  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:32.464  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 155648
+01-04 02:14:32.474  1845  2046 W SurfaceFlinger: Attempting to destroy on removed layer: 6eb3206 AssistPreviewPanel#0
+01-04 02:14:32.476  1845  2046 W SurfaceFlinger: Attempting to destroy on removed layer: 18d3263 DockedStackDivider#0
+01-04 02:14:32.478  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 155648
+01-04 02:14:32.483  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.533  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:32.825  2013  2080 D WindowManager: sendOrientationToHostAsync: calling BstHostCallManagerService onOrientationChange method, orientation: 1
+01-04 02:14:32.825  2013  2080 D WindowManager: sendOrientationToHostAsync: BstHostCallManagerService onOrientationChange method returned: 0
+01-04 02:14:32.825  2013  2045 I HCALL   : hcallOnOrientationChangedRpc(1)
+01-04 02:14:32.825  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:32.825  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:33.447  9338  9373 I chatty  : uid=10004(com.google.android.gms) highpool[0] expire 2 lines
+01-04 02:14:33.482  9338  9338 W .android.gms.u: Unsupported class loader
+01-04 02:14:33.494  9338  9338 W .android.gms.u: Skipping duplicate class check due to unsupported classloader
+01-04 02:14:33.541  9338  9338 I GmsModuleInitializer: Using ContainerGservicesDelegate
+01-04 02:14:33.808  2519  2519 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.tapandpay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:33.808  2519  2519 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.tapandpay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:33.829  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:33.829  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:33.886  9338  9338 D OpenGLRenderer: Skia GL Pipeline
+01-04 02:14:33.934  2013  8492 D WindowManager: calling BstHostCallManagerService onActivityDisplayed method, packageName: com.google.android.gms, activityName: com.google.android.gms.pay.deeplink.AliasSavePkPassActivity
+01-04 02:14:33.936  2013  8492 D WindowManager: BstHostCallManagerService onActivityDisplayed method returned: 0
+01-04 02:14:33.936  2013  2045 I HCALL   : hcallOnActivityDisplayedRpc(com.google.android.gms, com.google.android.gms.pay.deeplink.AliasSavePkPassActivity, com.bluestacks.filemanager)
+01-04 02:14:33.936  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:33.936  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:33.937  2013  8492 D WindowManager: calling BstHostCallManagerService setAppConfigDbParams method, packageName: com.google.android.gms, macrosDisabled: false, showFeedbackPopup: false, mouseCursorStyle: default, nativeGamepad: false
+01-04 02:14:33.937  2013  2045 I HCALL   : hcallSetAppConfigDbParamsRpc(com.google.android.gms, 0, 0, default, 0)
+01-04 02:14:33.937  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:33.937  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:33.937  2013  8492 D WindowManager: BstHostCallManagerService setAppConfigDbParams method returned: 0
+01-04 02:14:33.937  2013  8492 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.google.android.gms  activityName : com.google.android.gms.pay.deeplink.AliasSavePkPassActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:33.938  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:14:33.938  2292  2378 E BstGCallService-JNI: gcallCommonCommandClbk called: code=1, name=com.google.android.gms, data=
+01-04 02:14:33.939  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:33.942  9338  9385 D HostConnection: createUnique: call
+01-04 02:14:33.942  9338  9385 I AGA     : hstInit: opened /dev/bstpgaipc: fd = 86
+01-04 02:14:33.942  9338  9385 I AGA     : Attempting to create new SOCKET connection pid = 9338, tid = 9385
+01-04 02:14:33.944  9338  9385 I AGA     : hstInitClientPgaIpc: data mapped to 0x725a0bf70000 with size 262144
+01-04 02:14:33.944  9338  9385 I AGA     : New SOCKET connection: com.google.android.gms.ui (pid 9338, tid 9385) 0
+01-04 02:14:33.947  9338  9385 D HostConnection: HostComposition ext ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_vulkan_batched_descriptor_set_update ANDROID_EMU_vulkan_enabled ANDROID_EMU_vulkan_initialized GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_2 
+01-04 02:14:33.947  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:33.953  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:33.957  9338  9385 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+01-04 02:14:33.957  9338  9385 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+01-04 02:14:33.957  9338  9385 I OpenGLRenderer: Initialized EGL, version 1.4
+01-04 02:14:33.957  9338  9385 D OpenGLRenderer: Swap behavior 1
+01-04 02:14:33.976  9338  9385 D EGL_emulation: eglCreateContext: 0x725a0c948c00: maj 2 min 0 rcv 2
+01-04 02:14:33.977  2013  8492 D InputMethodManagerService: packageName=com.google.android.gms, activityName=.pay.deeplink.AliasSavePkPassActivity
+01-04 02:14:33.977  2013  8492 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:33.977  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:33.977  2013  8492 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:33.977  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:33.977  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:33.979  2013  8492 I ActivityManager: START u0 {act=com.google.android.gms.pay.pass.valuable.view.save.SAVE_PASSES flg=0x4000000 cmp=com.google.android.gms/.pay.main.PayActivity (has extras)} from uid 10004
+01-04 02:14:33.980  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.google.android.gms activityName: com.google.android.gms.pay.main.PayActivity callingPackage: com.google.android.gms  bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:33.996  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:33.996  9338  9385 I AGA     : The gl query need cache 0
+01-04 02:14:33.998  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420) (first time)
+01-04 02:14:34.003  9338  9385 D emuglGLESv2_enc: check TTCDisabled with pkg[com.google.android.gms.ui] with res[0]
+01-04 02:14:34.014  9338  9385 D vndksupport: Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+01-04 02:14:34.015  9338  9385 D vndksupport: Loading /vendor/lib64/hw/gralloc.default.so from current namespace instead of sphal namespace.
+01-04 02:14:34.017  9338  9385 D HostConnection: createUnique: call
+01-04 02:14:34.017  9338  9385 I AGA     : hstInit: opened /dev/bstpgaipc: fd = 94
+01-04 02:14:34.017  9338  9385 I AGA     : Attempting to create new SOCKET connection pid = 9338, tid = 9385
+01-04 02:14:34.018  9338  9385 I AGA     : hstInitClientPgaIpc: data mapped to 0x725a0bd20000 with size 262144
+01-04 02:14:34.018  9338  9385 I AGA     : New SOCKET connection: com.google.android.gms.ui (pid 9338, tid 9385) 0
+01-04 02:14:34.018  9338  9385 D HostConnection: HostComposition ext ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_vulkan_batched_descriptor_set_update ANDROID_EMU_vulkan_enabled ANDROID_EMU_vulkan_initialized GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_2 
+01-04 02:14:34.023  9338  9385 E EGL_emulation: tid 9385: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:34.023  9338  9385 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0c96e680, error=EGL_BAD_MATCH
+01-04 02:14:34.025  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.031  9338  9385 D emuglGLESv2_enc: GL com.google.android.gms.ui ViewportNeedFlush 0
+01-04 02:14:34.054  2013  2036 D ActivityManager: onWindowsDrawn: packageName = com.google.android.gms, name = com.google.android.gms.pay.deeplink.AliasSavePkPassActivity, mCallingPackage = com.bluestacks.filemanager
+01-04 02:14:34.054  2013  2045 I HCALL   : hcallCommonCommandRpc(5, , )
+01-04 02:14:34.054  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:34.054  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:34.056  2013  8492 D ActivityManager: TopActivityInfo, pkgName: com.google.android.gms activityName: com.google.android.gms/.pay.main.PayActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:34.072  9338  9338 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@aac25c9
+01-04 02:14:34.101  9338  9338 I .android.gms.u: Rejecting re-init on previously-failed class java.lang.Class<androidx.window.layout.adapter.sidecar.DistinctElementSidecarCallback>: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClassNative(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile) (DexFile.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClass(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile, java.util.List) (DexFile.java:283)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.loadClassBinaryName(java.lang.String, java.lang.ClassLoader, java.util.List) (DexFile.java:276)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList$Element.findClass(java.lang.String, java.lang.ClassLoader, java.util.List) (DexPathList.java:724)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList.findClass(java.lang.String, java.util.List) (DexPathList.java:486)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:132)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):9)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at m.ctk m.ctj.a(android.content.Context) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):16)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.google.android.gms.pay.main.PayChimeraActivity.onCreate(android.os.Bundle) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):101)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void oru.public_onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):1)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void ajbu.onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):4)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7185)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7176)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1285)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2979)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.app.servertransaction.PendingTransactionActions, android.content.Intent) (ActivityThread.java:3134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.LaunchActivityItem.execute(android.app.ClientTransactionHandler, android.os.IBinder, android.app.servertransaction.PendingTransactionActions) (LaunchActivityItem.java:78)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.executeCallbacks(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:108)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.execute(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:68)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1894)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Looper.loop() (Looper.java:193)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6846)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:518)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+01-04 02:14:34.101  9338  9338 I .android.gms.u: Caused by: java.lang.ClassNotFoundException: Didn't find class "androidx.window.sidecar.SidecarInterface$SidecarCallback" on path: DexPathList[[zip file "/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk"],nativeLibraryDirectories=[/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk!/lib/x86_64, /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk!/lib/arm64-v8a, /system/lib64, /system/vendor/lib64]]
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):15)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClassNative(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile) (DexFile.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClass(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile, java.util.List) (DexFile.java:283)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.loadClassBinaryName(java.lang.String, java.lang.ClassLoader, java.util.List) (DexFile.java:276)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList$Element.findClass(java.lang.String, java.lang.ClassLoader, java.util.List) (DexPathList.java:724)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList.findClass(java.lang.String, java.util.List) (DexPathList.java:486)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:132)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):9)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at m.ctk m.ctj.a(android.content.Context) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):16)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.google.android.gms.pay.main.PayChimeraActivity.onCreate(android.os.Bundle) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):101)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void oru.public_onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):1)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void ajbu.onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):4)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7185)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7176)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1285)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2979)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.app.servertransaction.PendingTransactionActions, android.content.Intent) (ActivityThread.java:3134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.LaunchActivityItem.execute(android.app.ClientTransactionHandler, android.os.IBinder, android.app.servertransaction.PendingTransactionActions) (LaunchActivityItem.java:78)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.executeCallbacks(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:108)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.execute(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:68)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1894)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Looper.loop() (Looper.java:193)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6846)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:518)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+01-04 02:14:34.101  9338  9338 I .android.gms.u: 
+01-04 02:14:34.101  9338  9338 I .android.gms.u: Rejecting re-init on previously-failed class java.lang.Class<androidx.window.layout.adapter.sidecar.DistinctElementSidecarCallback>: java.lang.NoClassDefFoundError: Failed resolution of: Landroidx/window/sidecar/SidecarInterface$SidecarCallback;
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClassNative(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile) (DexFile.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClass(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile, java.util.List) (DexFile.java:283)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.loadClassBinaryName(java.lang.String, java.lang.ClassLoader, java.util.List) (DexFile.java:276)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList$Element.findClass(java.lang.String, java.lang.ClassLoader, java.util.List) (DexPathList.java:724)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList.findClass(java.lang.String, java.util.List) (DexPathList.java:486)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:132)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):9)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at m.ctk m.ctj.a(android.content.Context) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):16)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.google.android.gms.pay.main.PayChimeraActivity.onCreate(android.os.Bundle) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):101)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void oru.public_onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):1)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void ajbu.onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):4)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7185)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7176)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1285)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2979)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.app.servertransaction.PendingTransactionActions, android.content.Intent) (ActivityThread.java:3134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.LaunchActivityItem.execute(android.app.ClientTransactionHandler, android.os.IBinder, android.app.servertransaction.PendingTransactionActions) (LaunchActivityItem.java:78)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.executeCallbacks(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:108)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.execute(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:68)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1894)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Looper.loop() (Looper.java:193)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6846)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:518)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+01-04 02:14:34.101  9338  9338 I .android.gms.u: Caused by: java.lang.ClassNotFoundException: Didn't find class "androidx.window.sidecar.SidecarInterface$SidecarCallback" on path: DexPathList[[zip file "/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk"],nativeLibraryDirectories=[/data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk!/lib/x86_64, /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Pay.optional_241017100800.apk!/lib/arm64-v8a, /system/lib64, /system/vendor/lib64]]
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):15)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClassNative(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile) (DexFile.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.defineClass(java.lang.String, java.lang.ClassLoader, java.lang.Object, dalvik.system.DexFile, java.util.List) (DexFile.java:283)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexFile.loadClassBinaryName(java.lang.String, java.lang.ClassLoader, java.util.List) (DexFile.java:276)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList$Element.findClass(java.lang.String, java.lang.ClassLoader, java.util.List) (DexPathList.java:724)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.DexPathList.findClass(java.lang.String, java.util.List) (DexPathList.java:486)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:132)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class olx.loadClass(java.lang.String, boolean) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):9)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at m.ctk m.ctj.a(android.content.Context) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):16)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.google.android.gms.pay.main.PayChimeraActivity.onCreate(android.os.Bundle) (:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):101)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void oru.public_onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):1)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void ajbu.onCreate(android.os.Bundle) (:com.google.android.gms@241017026@24.10.17 (100800-617915183):4)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle, android.os.PersistableBundle) (Activity.java:7185)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7176)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1285)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2979)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at android.app.Activity android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.app.servertransaction.PendingTransactionActions, android.content.Intent) (ActivityThread.java:3134)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.LaunchActivityItem.execute(android.app.ClientTransactionHandler, android.os.IBinder, android.app.servertransaction.PendingTransactionActions) (LaunchActivityItem.java:78)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.executeCallbacks(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:108)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.servertransaction.TransactionExecutor.execute(android.app.servertransaction.ClientTransaction) (TransactionExecutor.java:68)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1894)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:106)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.os.Looper.loop() (Looper.java:193)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6846)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:518)
+01-04 02:14:34.101  9338  9338 I .android.gms.u:   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:858)
+01-04 02:14:34.101  9338  9338 I .android.gms.u: 
+01-04 02:14:34.112  2519  2519 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:34.112  2519  2519 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:34.136  9338  9338 W SystemServiceRegistry: No service published for: fingerprint
+01-04 02:14:34.137  9338  9338 E NFC     : could not retrieve NFC service
+01-04 02:14:34.164  2197  8337 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:34.164  2197  8337 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:34.164  2197  8337 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:34.164  2197  8337 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:34.164  2197  8337 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:34.164  2197  8337 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:34.164  2197  8337 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:34.164  2197  8337 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:34.167  5120  9336 I FA      : Application backgrounded at: timestamp_millis: 1767489272166
+01-04 02:14:34.175  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.178  2013  8492 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.google.android.gms  activityName : com.google.android.gms.pay.main.PayActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:34.179  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:34.185  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 identical 1 line
+01-04 02:14:34.192  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:34.203  9338  9385 E EGL_emulation: tid 9385: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:34.203  9338  9385 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a39745e00, error=EGL_BAD_MATCH
+01-04 02:14:34.210  2013  8492 D InputMethodManagerService: packageName=com.google.android.gms, activityName=.pay.main.PayActivity
+01-04 02:14:34.210  2013  8492 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:34.210  2013  8492 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:34.211  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:34.211  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:34.211  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:34.212  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.215  2013  2036 D ActivityManager: onWindowsDrawn: packageName = com.google.android.gms, name = com.google.android.gms.pay.main.PayActivity, mCallingPackage = com.bluestacks.filemanager
+01-04 02:14:34.215  2013  2036 I ActivityManager: Displayed com.google.android.gms/.pay.main.PayActivity: +158ms (total +2s58ms)
+01-04 02:14:34.215  2013  2045 I HCALL   : hcallCommonCommandRpc(5, , )
+01-04 02:14:34.215  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:34.215  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:34.223  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:34.223  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:34.228  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.238  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:34.238  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:34.241  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.credential.manager.service.firstparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.243  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.credential.manager.service.firstparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.262  2519  2548 I FontLog : (REDACTED) Received query %s, URI %s
+01-04 02:14:34.263  2519  2548 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-04 02:14:34.264  2519  2548 I FontLog : (REDACTED) Font PFD returned from cache for %s
+01-04 02:14:34.265  2519  2548 I FontLog : (REDACTED) Fetch %s end status %s
+01-04 02:14:34.269  2519  2548 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-04 02:14:34.275  2519  2548 I FontLog : (REDACTED) Received query %s, URI %s
+01-04 02:14:34.276  2519  2548 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-04 02:14:34.276  2519  2548 I FontLog : (REDACTED) Font PFD returned from cache for %s
+01-04 02:14:34.276  2519  2548 I FontLog : (REDACTED) Fetch %s end status %s
+01-04 02:14:34.281  2519  2548 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-04 02:14:34.288  2519  2548 I FontLog : (REDACTED) Received query %s, URI %s
+01-04 02:14:34.288  2519  2548 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-04 02:14:34.290  2519  2548 I FontLog : (REDACTED) Font PFD returned from cache for %s
+01-04 02:14:34.292  2519  2548 I FontLog : (REDACTED) Fetch %s end status %s
+01-04 02:14:34.304  2519  4235 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-04 02:14:34.327  9338  9338 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+01-04 02:14:34.329  2519  2519 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:34.329  2519  2519 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:34.337  2013  8492 D ConnectivityService: requestNetwork for uid/pid:10004/9338 NetworkRequest [ TRACK_DEFAULT id=78, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10004] ]
+01-04 02:14:34.341  2013  2132 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=78, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10004] ] with score 70
+01-04 02:14:34.342  2013  2159 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=78, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10004] ] with score 70
+01-04 02:14:34.342  2013  2132 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=78, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10004] ] with score 70
+01-04 02:14:34.344  2311  2311 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=78, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10004] ] with score 70
+01-04 02:14:34.354  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.354  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.364  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.366  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.366  9338  9338 I m.aaqq  : (REDACTED) setIsolated %s
+01-04 02:14:34.367  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.367  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.372  2013  8492 D ActivityManager: Raise procstate to external provider: ProcessRecord{b5bc00 5120:com.bluestacks.filemanager/u0a40}
+01-04 02:14:34.375  9338  9338 I Pay     : (REDACTED) Processing content from path: %s
+01-04 02:14:34.376  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.google.android.gms#0
+01-04 02:14:34.376  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.google.android.gms#0
+01-04 02:14:34.379  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdisync.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.379  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdisync.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:34.380  9338  9338 E Pay     : Content handling failed! [CONTEXT service_id=198 ]
+01-04 02:14:34.380  9338  9338 E Pay     : m.ssy: Not supported file: FaselHDProvider.cs3
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.svi.af(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):677)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.dj.e(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):462)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.dz.a(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):11)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.ee.e(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):101)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.cz.av(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):2108)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.cz.ax(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):83)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.cz.ao(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):71)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.cl.run(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):4)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at android.os.Handler.handleCallback(Handler.java:873)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at m.jyg.dispatchMessage(:com.google.android.gms.optional_pay@241017049@24.10.17 (100800-0):143)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at android.os.Looper.loop(Looper.java:193)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at android.app.ActivityThread.main(ActivityThread.java:6846)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at java.lang.reflect.Method.invoke(Native Method)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:518)
+01-04 02:14:34.380  9338  9338 E Pay     : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+01-04 02:14:34.380  9338  9338 I Pay     : Showing error dialog/layout [CONTEXT service_id=198 ]
+01-04 02:14:34.400  9338  9390 W acfr    : Disc account not the same as selected account. Disc account null
+01-04 02:14:34.419  2519  2738 I FontLog : (REDACTED) Received query %s, URI %s
+01-04 02:14:34.420  2519  2738 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-04 02:14:34.420  2519  2738 I FontLog : (REDACTED) Font PFD returned from cache for %s
+01-04 02:14:34.420  2519  2738 I FontLog : (REDACTED) Fetch %s end status %s
+01-04 02:14:34.421  2519  2545 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-04 02:14:34.426  2519  2548 I FontLog : (REDACTED) Received query %s, URI %s
+01-04 02:14:34.428  2519  2548 I FontLog : (REDACTED) Query [%s] resolved to %s
+01-04 02:14:34.429  2519  2548 I FontLog : (REDACTED) Font PFD returned from cache for %s
+01-04 02:14:34.430  2519  2548 I FontLog : (REDACTED) Fetch %s end status %s
+01-04 02:14:34.432  2519  2545 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+01-04 02:14:34.446  2013  5052 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.google.android.gms  activityName : com.google.android.gms.pay.main.PayActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:34.450  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.491  1845  2445 W SurfaceFlinger: Attempting to set client state on removed layer: com.google.android.gms/com.google.android.gms.pay.deeplink.AliasSavePkPassActivity#0
+01-04 02:14:34.491  1845  2445 W SurfaceFlinger: Attempting to destroy on removed layer: com.google.android.gms/com.google.android.gms.pay.deeplink.AliasSavePkPassActivity#0
+01-04 02:14:34.511  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.521  1845  1845 D SurfaceFlinger: duplicate layer name: changing com.google.android.gms/com.google.android.gms.pay.main.PayActivity to com.google.android.gms/com.google.android.gms.pay.main.PayActivity#1
+01-04 02:14:34.526  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1716224
+01-04 02:14:34.529  1845  2445 I chatty  : uid=1000(system) Binder:1845_4 identical 1 line
+01-04 02:14:34.531  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1716224
+01-04 02:14:34.538  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:34.538  9338  9385 E EGL_emulation: tid 9385: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:34.538  9338  9385 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a07694d80, error=EGL_BAD_MATCH
+01-04 02:14:34.540  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:34.541  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:34.541  2758  2775 I MdiSyncModule: (REDACTED) Receiving API connection from package '%s'...
+01-04 02:14:34.542  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.542  9338  9338 I m.aaqq  : (REDACTED) setIsolated %s
+01-04 02:14:34.542  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.543  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.543  2758  2775 I MdiSyncModule: API connection successful!
+01-04 02:14:34.544  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:34.545  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.547  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:34.547  9338  9338 I m.aaqq  : (REDACTED) onViewAttachedToWindow self=%s, view=%s
+01-04 02:14:34.553  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:34.576  9338  9385 I chatty  : uid=10004(com.google.android.gms) RenderThread identical 3 lines
+01-04 02:14:35.876  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:35.879  9338  9338 I Pay     : Finishing the activity. [CONTEXT service_id=198 ]
+01-04 02:14:35.880  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:14:35.883  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:35.884  9338  9385 D OpenGLRenderer: endAllActiveAnimators on 0x725a077a3300 (RippleDrawable) with handle 0x725a077de0e0
+01-04 02:14:35.891  2013  2025 D ActivityManager: TopActivityInfo, pkgName: com.bluestacks.filemanager activityName: com.bluestacks.filemanager/.MainActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:35.907  1845  2445 E SurfaceFlinger: size mismatch (1080, 1920) > (1920, 1080)
+01-04 02:14:35.907  1845  2445 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:35.922  2013  2025 D WindowManager: mHasNavigationBar: false
+01-04 02:14:35.924  2013  2025 I ActivityManager: Config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w1280dp h696dp 240dpi xlrg long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.14}
+01-04 02:14:35.925  2013  2025 I ActivityManager: Override config changes=20000480 {1.0 262mcc1mnc [en_US] ldltr sw720dp w1280dp h696dp 240dpi xlrg long land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mActivityType=undefined} s.14} for displayId=0
+01-04 02:14:35.925  2013  2025 D WindowManager: mHasNavigationBar: false
+01-04 02:14:35.927  2013  2025 D WindowManager: mHasNavigationBar: false
+01-04 02:14:35.942  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:14:35.950  2013  3248 W ActivityManager: Receiver with filter android.content.IntentFilter@faaed58 already registered for pid 5120, callerPackage is com.bluestacks.filemanager
+01-04 02:14:35.950  2013  2115 I InputReader: Reconfiguring input devices.  changes=0x00000004
+01-04 02:14:35.950  2013  2115 I InputReader: Device reconfigured: id=4, name='BlueStacks Virtual Touch', size 1920x1080, orientation 0, mode 1, display id 0
+01-04 02:14:35.950  2013  2184 W ActivityManager: Receiver with filter android.content.IntentFilter@a280eb1 already registered for pid 5120, callerPackage is com.bluestacks.filemanager
+01-04 02:14:35.952  1845  1845 D DisplayDevice: Open /dev/tty0 OK
+01-04 02:14:35.965  2013  2184 D WindowManager: calling BstHostCallManagerService onActivityDisplayed method, packageName: com.bluestacks.filemanager, activityName: com.bluestacks.filemanager.MainActivity
+01-04 02:14:35.965  2013  2045 I HCALL   : hcallOnActivityDisplayedRpc(com.bluestacks.filemanager, com.bluestacks.filemanager.MainActivity, com.google.android.gms)
+01-04 02:14:35.965  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:35.965  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:35.965  2013  2184 D WindowManager: BstHostCallManagerService onActivityDisplayed method returned: 0
+01-04 02:14:35.966  2013  2184 D WindowManager: calling BstHostCallManagerService setAppConfigDbParams method, packageName: com.bluestacks.filemanager, macrosDisabled: false, showFeedbackPopup: false, mouseCursorStyle: default, nativeGamepad: false
+01-04 02:14:35.966  2013  2045 I HCALL   : hcallSetAppConfigDbParamsRpc(com.bluestacks.filemanager, 0, 0, default, 0)
+01-04 02:14:35.966  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:35.966  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:35.966  2013  2184 D WindowManager: BstHostCallManagerService setAppConfigDbParams method returned: 0
+01-04 02:14:35.966  2013  2184 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.bluestacks.filemanager  activityName : com.bluestacks.filemanager.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:35.966  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:14:35.966  2292  2378 E BstGCallService-JNI: gcallCommonCommandClbk called: code=1, name=com.bluestacks.filemanager, data=
+01-04 02:14:35.967  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:35.968  9203  9203 D GeckoScreenOrientation: updating to new orientation LANDSCAPE_PRIMARY
+01-04 02:14:35.972  2292  2292 D BstCommandProcessor-Application: onConfigurationChanged called
+01-04 02:14:35.974  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:35.974  2013  2036 W WindowManager: App freeze timeout expired.
+01-04 02:14:35.981  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:35.985  2197  2197 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+01-04 02:14:35.997  5120  5171 E EGL_emulation: tid 5171: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:35.997  5120  5171 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0fe52e80, error=EGL_BAD_MATCH
+01-04 02:14:36.008  2013  2025 D InputMethodManagerService: packageName=com.bluestacks.filemanager, activityName=.MainActivity
+01-04 02:14:36.008  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:36.008  2013  2025 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:36.008  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:36.008  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:36.008  2013  2025 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:36.018  5120  5120 E RecyclerView: No adapter attached; skipping layout
+01-04 02:14:36.021  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:36.031  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:36.032  1845  1965 W SurfaceFlinger: Attempting to set client state on removed layer: com.google.android.gms/com.google.android.gms.pay.main.PayActivity#1
+01-04 02:14:36.032  1845  1965 W SurfaceFlinger: Attempting to destroy on removed layer: com.google.android.gms/com.google.android.gms.pay.main.PayActivity#1
+01-04 02:14:36.034  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:14:36.035  2013  2036 D ActivityManager: onWindowsDrawn: packageName = com.bluestacks.filemanager, name = com.bluestacks.filemanager.MainActivity, mCallingPackage = com.uncube.launcher3
+01-04 02:14:36.035  2013  2045 I HCALL   : hcallCommonCommandRpc(5, , )
+01-04 02:14:36.035  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:36.035  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:36.044  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:36.044  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:36.044  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:36.044  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:36.044  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:36.044  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:36.044  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:36.044  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:36.050  2197  2487 E EGL_emulation: tid 2487: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:36.050  2197  2487 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a2fde0200, error=EGL_BAD_MATCH
+01-04 02:14:36.050  9338  9385 D EGL_emulation: eglMakeCurrent: 0x725a0c948c00: ver 2 0 (tinfo 0x725a0c875420)
+01-04 02:14:36.051  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:14:36.052  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:14:36.055  2013  2281 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system_ce/0/recent_images/114_activity_icon_1767489273981.png (No such file or directory)
+01-04 02:14:36.056  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:36.056  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:36.064  1845  1963 W SurfaceFlinger: Attempting to destroy on removed layer: 84da769 AssistPreviewPanel#0
+01-04 02:14:36.065  1845  1963 W SurfaceFlinger: Attempting to destroy on removed layer: b4a02fa DockedStackDivider#0
+01-04 02:14:36.072  5120  5171 E EGL_emulation: tid 5171: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:36.072  5120  5171 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0fe52e80, error=EGL_BAD_MATCH
+01-04 02:14:36.073  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:14:36.074  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:36.074  2013  2080 I WindowManager: Screen frozen for +180ms due to Window{80526ca u0 StatusBar}
+01-04 02:14:36.076  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:36.091  1845  1963 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - Task=114#0
+01-04 02:14:36.091  1845  1963 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - Task=114#0
+01-04 02:14:36.112  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:36.177  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:36.178  9338  9338 I chatty  : uid=10004 com.google.android.gms.ui identical 3 lines
+01-04 02:14:36.179  9338  9338 I m.aaqq  : (REDACTED) onViewDetachedToWindow self=%s, view=%s
+01-04 02:14:36.182  1845  2046 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{cd3ea67 token=Token{aaeae26 ActivityRecord{ab53d81 u0 com.google.android.gms/.pay.main.PayActivity t114}}}#0
+01-04 02:14:36.507  2013  2080 D WindowManager: sendOrientationToHostAsync: calling BstHostCallManagerService onOrientationChange method, orientation: 0
+01-04 02:14:36.508  2013  2045 I HCALL   : hcallOnOrientationChangedRpc(0)
+01-04 02:14:36.508  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:36.508  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:36.508  2013  2080 D WindowManager: sendOrientationToHostAsync: BstHostCallManagerService onOrientationChange method returned: 0
+01-04 02:14:38.130  2013  2036 I system_server: Explicit concurrent copying GC freed 64889(3MB) AllocSpace objects, 34(1000KB) LOS objects, 42% free, 10MB/17MB, paused 37us total 38.528ms
+01-04 02:14:38.484  2197  2197 V StatusBar: mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{4c61ef8 V.ED..... ........ 0,0-1920,36} canPanelBeCollapsed(): false
+01-04 02:14:38.485  2013  2034 D AutofillManagerService: Close system dialogs
+01-04 02:14:38.486  2013  2114 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.uncube.launcher3/com.bluestacks.launcher.activity.HomeActivity (has extras)} from uid 1000
+01-04 02:14:38.486  2013  2114 D ActivityManager: TopActivityInfo, pkgName: com.uncube.launcher3 activityName: com.bluestacks.launcher.activity.HomeActivity callingPackage: android  bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:38.496  2013  2025 D ActivityManager: TopActivityInfo, pkgName: com.uncube.launcher3 activityName: com.uncube.launcher3/com.bluestacks.launcher.activity.HomeActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:38.553  2701  2839 D SessionLifecycleClient: Sending lifecycle 1 to service
+01-04 02:14:38.554  2701  2995 D SessionLifecycleService: Activity foregrounding at 5920364.
+01-04 02:14:38.557  2519  2519 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:38.558  2701  2842 D SessionLifecycleClient: Sending lifecycle 2 to service
+01-04 02:14:38.558  2701  2995 D SessionLifecycleService: Activity backgrounding at 5920368
+01-04 02:14:38.563  2519  2519 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:38.601  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:38.601  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:38.601  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:38.601  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:38.601  2197  2557 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:38.601  2197  2557 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:38.601  2197  2557 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:38.601  2197  2557 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:38.641  2701  2701 I AdViewModel: isAdsEnabledDueToDisplayConstraints: width = 1920, height = 1080
+01-04 02:14:38.642  2701  9404 W ncube.launcher: Unknown chunk type '200'.
+01-04 02:14:38.661  2701  2701 I NotificationQueryVM: observeNotifications() called with: queries = [[NotificationQuery{targetType='guid', operator='array-contains', targetValue='c09303e0-87c8-496c-bda8-6f269f4a023e'}]]
+01-04 02:14:38.663  2701  2701 I NotificationQueryVM: observeNotifications: commonFilters = [[com.google.firebase.firestore.k$b@8b60ffad, com.google.firebase.firestore.k$b@ff272cd0]]
+01-04 02:14:38.663  2701  2701 I NotificationQueryVM: processing NotificationQuery{targetType='guid', operator='array-contains', targetValue='c09303e0-87c8-496c-bda8-6f269f4a023e'}
+01-04 02:14:38.663  2701  2701 I NotificationQueryVM: observeNotifications: query = [NotificationQuery{targetType='guid', operator='array-contains', targetValue='c09303e0-87c8-496c-bda8-6f269f4a023e'}]
+01-04 02:14:38.677  2701  2823 D SessionLifecycleClient: Sending lifecycle 1 to service
+01-04 02:14:38.677  2701  2995 D SessionLifecycleService: Activity foregrounding at 5920487.
+01-04 02:14:38.687  2013  2025 D WindowManager: calling BstHostCallManagerService onActivityDisplayed method, packageName: com.uncube.launcher3, activityName: com.bluestacks.launcher.activity.HomeActivity
+01-04 02:14:38.688  2013  2025 D WindowManager: BstHostCallManagerService onActivityDisplayed method returned: 0
+01-04 02:14:38.688  2013  2045 I HCALL   : hcallOnActivityDisplayedRpc(com.uncube.launcher3, com.bluestacks.launcher.activity.HomeActivity, android)
+01-04 02:14:38.688  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:38.688  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:38.689  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:14:38.689  2292  2378 E BstGCallService-JNI: gcallCommonCommandClbk called: code=1, name=com.uncube.launcher3, data=
+01-04 02:14:38.689  2013  2025 D WindowManager: calling BstHostCallManagerService setAppConfigDbParams method, packageName: com.uncube.launcher3, macrosDisabled: false, showFeedbackPopup: false, mouseCursorStyle: , nativeGamepad: false
+01-04 02:14:38.689  2013  2045 I HCALL   : hcallSetAppConfigDbParamsRpc(com.uncube.launcher3, 0, 0, , 0)
+01-04 02:14:38.689  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:38.689  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:38.689  2013  2025 D WindowManager: BstHostCallManagerService setAppConfigDbParams method returned: 0
+01-04 02:14:38.690  2013  2025 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.uncube.launcher3  activityName : com.bluestacks.launcher.activity.HomeActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:38.691  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:38.698  1845  2992 I chatty  : uid=1000(system) Binder:1845_5 identical 1 line
+01-04 02:14:38.704  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:38.715  2701  2701 D Glide   : Finished loading BitmapDrawable from RESOURCE_DISK_CACHE for https://cloud.bluestacks.com/app/icon?pkg=com.woc.now&use_cdn=true with size [-2147483648x-2147483648] in 83.899265 ms
+01-04 02:14:38.717  2701  2959 E EGL_emulation: tid 2959: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:38.717  2701  2959 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a0f27cb80, error=EGL_BAD_MATCH
+01-04 02:14:38.721  2701  2701 D Glide   : Finished loading BitmapDrawable from RESOURCE_DISK_CACHE for https://cloud.bluestacks.com/app/icon?pkg=com.oxiwyle.modernage2&use_cdn=true with size [-2147483648x-2147483648] in 88.647661 ms
+01-04 02:14:38.725  2701  2701 D Glide   : Finished loading BitmapDrawable from RESOURCE_DISK_CACHE for https://cloud.bluestacks.com/app/icon?pkg=com.plarium.raidlegends&use_cdn=true with size [-2147483648x-2147483648] in 92.20808199999999 ms
+01-04 02:14:38.727  2701  2959 D EGL_emulation: eglMakeCurrent: 0x725a12169600: ver 3 2 (tinfo 0x725a1212bc00)
+01-04 02:14:38.741  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:38.763  2013  2025 D InputMethodManagerService: packageName=com.uncube.launcher3, activityName=com.bluestacks.launcher.activity.HomeActivity
+01-04 02:14:38.763  2013  2025 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:38.763  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:38.763  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:38.763  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:38.763  2013  2025 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:38.764  2013  2036 D ActivityManager: onWindowsDrawn: packageName = com.uncube.launcher3, name = com.bluestacks.launcher.activity.HomeActivity, mCallingPackage = android
+01-04 02:14:38.764  2013  2045 I HCALL   : hcallCommonCommandRpc(5, , )
+01-04 02:14:38.764  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:38.764  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:38.848  2701  2701 I NotificationQueryVM: addSnapshotListener:  with value = [com.google.firebase.firestore.i0@3dbec5d2], error = [null]
+01-04 02:14:38.935  2701  2701 D Glide   : Finished loading BitmapDrawable from REMOTE for https://cloud-api-cdn.bluestacks.com/app/icon?pkg=com.funplus.ts.global&w=150&use_cdn=true with size [-2147483648x-2147483648] in 301.985091 ms
+01-04 02:14:38.942  2701  2701 D Glide   : Finished loading BitmapDrawable from REMOTE for https://cloud-api-cdn.bluestacks.com/app/icon?pkg=com.diandian.gog&w=150&use_cdn=true with size [-2147483648x-2147483648] in 309.569114 ms
+01-04 02:14:38.978  2701  2701 D Glide   : Finished loading BitmapDrawable from REMOTE for https://cloud-api-cdn.bluestacks.com/app/icon?pkg=dk.tactile.lilysgarden.bluestack&w=150&use_cdn=true with size [-2147483648x-2147483648] in 345.171404 ms
+01-04 02:14:38.986  5120  5171 D EGL_emulation: eglMakeCurrent: 0x725a12ee1000: ver 3 2 (tinfo 0x725a12eaeec0)
+01-04 02:14:39.209  2013  3512 D HostConnection: createUnique: call
+01-04 02:14:39.209  2013  3512 I AGA     : hstInit: opened /dev/bstpgaipc: fd = 170
+01-04 02:14:39.209  2013  3512 I AGA     : Attempting to create new SOCKET connection pid = 2013, tid = 3512
+01-04 02:14:39.210  2013  3512 I AGA     : hstInitClientPgaIpc: data mapped to 0x725a33ebe000 with size 262144
+01-04 02:14:39.210  2013  3512 I AGA     : New SOCKET connection: system_server (pid 2013, tid 3512) 0
+01-04 02:14:39.212  2013  3512 D HostConnection: HostComposition ext ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_vulkan_batched_descriptor_set_update ANDROID_EMU_vulkan_enabled ANDROID_EMU_vulkan_initialized GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_2 
+01-04 02:14:39.213  2013  3512 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+01-04 02:14:39.213  2013  3512 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+01-04 02:14:39.213  2013  3512 I OpenGLRenderer: Initialized EGL, version 1.4
+01-04 02:14:39.213  2013  3512 D OpenGLRenderer: Swap behavior 1
+01-04 02:14:39.243  2013  3512 D EGL_emulation: eglCreateContext: 0x725a1049bc00: maj 3 min 2 rcv 5
+01-04 02:14:39.270  2013  3512 D EGL_emulation: eglMakeCurrent: 0x725a1049bc00: ver 3 2 (tinfo 0x725a105d5ce0)
+01-04 02:14:39.270  2013  3512 I AGA     : The gl query need cache 0
+01-04 02:14:39.270  2013  3512 D EGL_emulation: eglMakeCurrent: 0x725a1049bc00: ver 3 2 (tinfo 0x725a105d5ce0) (first time)
+01-04 02:14:39.273  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+01-04 02:14:39.273  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+01-04 02:14:39.273  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082e5
+01-04 02:14:39.273  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082e5
+01-04 02:14:39.275  2013  3512 D emuglGLESv2_enc: check TTCDisabled with pkg[system_server] with res[0]
+01-04 02:14:39.282  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008c29
+01-04 02:14:39.282  2013  3512 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008c29
+01-04 02:14:39.285  2013  3512 D emuglGLESv2_enc: check GLMBRH with pkg[system_server] with res[0]
+01-04 02:14:39.285  2013  3512 D emuglGLESv2_enc: check GLUBPerf with pkg[system_server] with res[0]
+01-04 02:14:39.286  2013  3512 D emuglGLESv2_enc: GL system_server ViewportNeedFlush 0
+01-04 02:14:40.556  5120  9336 I FA      : Application backgrounded at: timestamp_millis: 1767489278513
+01-04 02:14:47.073  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:14:47.142  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:14:47.234  2701  2701 D HomeActivity: showGuestPopup : 1
+01-04 02:14:47.234  2701  2701 D HomeActivity: showNowggLoginPopup : 1
+01-04 02:14:47.236  2013  2024 I HCALL   : hcallIsAppLaunchAllowedRpc(com.lagradost.cloudstream3, 0)
+01-04 02:14:47.236  2013  2024 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:47.236  2013  2024 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:47.237  2013  2024 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.lagradost.cloudstream3/.ui.account.AccountSelectActivity} from uid 10047
+01-04 02:14:47.238  2013  2024 D ActivityManager: TopActivityInfo, pkgName: com.lagradost.cloudstream3 activityName: com.lagradost.cloudstream3.ui.account.AccountSelectActivity callingPackage: com.uncube.launcher3  bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:47.249  2701  2814 D SessionLifecycleClient: Sending lifecycle 2 to service
+01-04 02:14:47.249  2701  2995 D SessionLifecycleService: Activity backgrounding at 5929059
+01-04 02:14:47.251  2013  2024 D ActivityManager: TopActivityInfo, pkgName: com.lagradost.cloudstream3 activityName: com.lagradost.cloudstream3/.MainActivity callingPackage:   bstSpecialAppKeyboardHandlingEnabled = false
+01-04 02:14:47.292  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.345  2013  2024 D WindowManager: calling BstHostCallManagerService onActivityDisplayed method, packageName: com.lagradost.cloudstream3, activityName: com.lagradost.cloudstream3.MainActivity
+01-04 02:14:47.345  2013  2045 I HCALL   : hcallOnActivityDisplayedRpc(com.lagradost.cloudstream3, com.lagradost.cloudstream3.MainActivity, com.uncube.launcher3)
+01-04 02:14:47.345  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:47.345  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:47.345  2013  2024 D WindowManager: BstHostCallManagerService onActivityDisplayed method returned: 0
+01-04 02:14:47.347  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:14:47.347  2292  2378 E BstGCallService-JNI: gcallCommonCommandClbk called: code=1, name=com.lagradost.cloudstream3, data=
+01-04 02:14:47.350  2013  2024 D WindowManager: calling BstHostCallManagerService setAppConfigDbParams method, packageName: com.lagradost.cloudstream3, macrosDisabled: false, showFeedbackPopup: false, mouseCursorStyle: , nativeGamepad: false
+01-04 02:14:47.350  2013  2045 I HCALL   : hcallSetAppConfigDbParamsRpc(com.lagradost.cloudstream3, 0, 0, , 0)
+01-04 02:14:47.350  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:47.350  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:47.350  2013  2024 D WindowManager: BstHostCallManagerService setAppConfigDbParams method returned: 0
+01-04 02:14:47.350  2013  2024 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:47.351  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.359  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.367  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.374  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:47.374  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a070fe600, error=EGL_BAD_MATCH
+01-04 02:14:47.374  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.384  2197  2541 W ndroid.systemu: Unknown chunk type '200'.
+01-04 02:14:47.397  2197  2541 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:47.397  2197  2541 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:47.397  2197  2541 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:47.397  2197  2541 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:47.397  2197  2541 W ziparchive: Unable to open '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk': No such file or directory
+01-04 02:14:47.397  2197  2541 E ndroid.systemu: Failed to open APK '/data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk' I/O error
+01-04 02:14:47.397  2197  2541 E ResourcesManager: failed to add asset path /data/app/com.omarflex5-UUzewaqI37VgMX6v7Y0Ngw==/base.apk
+01-04 02:14:47.397  2197  2541 W PackageManager: Failure retrieving resources for com.omarflex5
+01-04 02:14:47.398  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.399  2197  2541 W ndroid.systemu: Unknown chunk type '200'.
+01-04 02:14:47.412  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:47.412  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a070fe600, error=EGL_BAD_MATCH
+01-04 02:14:47.420  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:47.425  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.439  2013  3248 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:14:47.439  2013  3248 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:47.440  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:47.440  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:47.440  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:47.440  2013  3248 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:47.443  2013  2036 D ActivityManager: onWindowsDrawn: packageName = com.lagradost.cloudstream3, name = com.lagradost.cloudstream3.MainActivity, mCallingPackage = com.lagradost.cloudstream3
+01-04 02:14:47.443  2013  2045 I HCALL   : hcallCommonCommandRpc(5, , )
+01-04 02:14:47.443  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:47.443  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:47.447  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:14:47.610  1845  1963 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.lagradost.cloudstream3#0
+01-04 02:14:47.610  1845  1963 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.lagradost.cloudstream3#0
+01-04 02:14:47.631  3378  3378 I AppVisibilityProxy: onAppEnteredForeground
+01-04 02:14:47.659  2519  9337 I CastDatabase: Loading the database
+01-04 02:14:47.663  2519  9337 I SQLiteCastStore: 0 CastNetworkInfo instances loaded, 0 CastDeviceInfo instances loaded, 0 paired guest mode devices loaded.
+01-04 02:14:47.690  2519  9337 I DiscoveryManager: Filter criteria(CC1AD845) scannerFlags(0)
+01-04 02:14:47.692  2519  9337 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+01-04 02:14:47.693  2519  2519 I CastMediaRouteProvider: Published 0 routes
+01-04 02:14:47.696  2519  2519 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:47.696  2519  2519 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:47.706  2013  3248 I WifiService: acquireMulticastLock uid=10004
+01-04 02:14:47.742  2701  2959 D EGL_emulation: eglMakeCurrent: 0x725a12169600: ver 3 2 (tinfo 0x725a1212bc00)
+01-04 02:14:47.746  2701  2701 W LauncherApplication: onTrimMemory() called with: trimLevel = [TRIM_MEMORY_UI_HIDDEN]
+01-04 02:14:49.281  2701  9329 I FA      : Application backgrounded at: timestamp_millis: 1767489287267
+01-04 02:14:49.282  2519  2519 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.tapandpay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:49.314  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.pay.service.BIND dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:49.544  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:49.545  2519  2519 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:49.545  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+01-04 02:14:49.545  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.credential.manager.service.firstparty.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:49.624  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdisync.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:49.741  2013  3248 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:14:49.741  2013  3248 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:49.741  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:49.741  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:49.741  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:49.741  2013  3248 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:49.753  3378  3468 W st.cloudstream: Checksum mismatch for dex FaselHDProvider.88718828.cs3
+01-04 02:14:49.767  3378  3468 W st.cloudstream: Couldn't lock the profile file /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof: Failed to open file '/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof': No such file or directory
+01-04 02:14:49.767  3378  3468 W st.cloudstream: Could not forcefully load profile /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof
+01-04 02:14:49.813  3378  3378 I PLG     : updatePluginList = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json
+01-04 02:14:49.813  3378  3378 I PLG     : getPlugins = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json
+01-04 02:14:49.993  3378  3378 E CoilImgLoader: Error loading image: coil3.network.HttpException: HTTP 404
+01-04 02:14:51.257  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+01-04 02:14:51.266  2519  2519 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-04 02:14:53.592  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:14:53.593  2013  2024 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:14:53.593  2013  2024 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:53.593  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:53.593  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:53.593  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:53.593  2013  2024 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:53.663  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:14:55.076  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:55.083  1845  1845 D SurfaceFlinger: duplicate layer name: changing com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity to com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:14:55.085  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1556480
+01-04 02:14:55.088  1845  2992 I chatty  : uid=1000(system) Binder:1845_5 identical 1 line
+01-04 02:14:55.091  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1556480
+01-04 02:14:55.095  2013  3248 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:14:55.095  2013  3248 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:55.095  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:55.095  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:55.095  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:55.095  2013  3248 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:55.099  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:14:55.099  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a087fd380, error=EGL_BAD_MATCH
+01-04 02:14:55.101  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:55.125  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:57.338  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+01-04 02:14:57.609  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:57.701  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:57.701  3378  3873 D OpenGLRenderer: endAllActiveAnimators on 0x725a02139500 (RippleDrawable) with handle 0x725a0f2bf640
+01-04 02:14:57.703  2013  2024 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:14:57.705  2013  2024 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:14:57.705  2013  2024 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:14:57.705  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:14:57.705  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:14:57.705  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:14:57.705  2013  2024 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:14:57.711  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:14:57.858  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:14:57.858  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:14:58.781  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:14:58.781  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:14:58.784  2519  9323 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:14:58.786  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:14:58.787  2519  9202 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:15:00.973  2197  2197 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+01-04 02:15:00.993  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:15:00.995  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:15:01.008  2197  2487 E EGL_emulation: tid 2487: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:01.008  2197  2487 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a2fde0200, error=EGL_BAD_MATCH
+01-04 02:15:01.009  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:15:01.019  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:15:01.039  1845  2992 D gralloc_default: gralloc_alloc: Creating ashmem region of size 8298496
+01-04 02:15:01.831  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:01.833  2197  2197 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+01-04 02:15:01.860  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:15:01.861  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:15:01.871  2197  2487 E EGL_emulation: tid 2487: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:01.871  2197  2487 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a2fde0200, error=EGL_BAD_MATCH
+01-04 02:15:01.872  2197  2487 D EGL_emulation: eglMakeCurrent: 0x725a2fdaf400: ver 3 2 (tinfo 0x725a2fc65080)
+01-04 02:15:01.873  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:15:01.891  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 278528
+01-04 02:15:03.760  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:15:03.767  2013  2024 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:03.778  1845  1845 D SurfaceFlinger: duplicate layer name: changing com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity to com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:03.780  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1261568
+01-04 02:15:03.783  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1261568
+01-04 02:15:03.789  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:03.789  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a070b6800, error=EGL_BAD_MATCH
+01-04 02:15:03.789  1845  1963 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1261568
+01-04 02:15:03.795  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:03.823  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:15:03.825  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:03.949  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:15:05.391  3378  3873 I chatty  : uid=10093(com.lagradost.cloudstream3) RenderThread identical 1 line
+01-04 02:15:06.676  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:06.676  3378  3873 D OpenGLRenderer: endAllActiveAnimators on 0x725a0ce3c000 (RippleDrawable) with handle 0x725a07085aa0
+01-04 02:15:06.679  3378  8648 I PluginManager: Unloading plugin: /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3
+01-04 02:15:06.680  3378  8648 I PluginManager: Unloading plugin: /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat
+01-04 02:15:06.680  3378  8648 W PluginManager: Couldn't find plugin /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat
+01-04 02:15:06.681  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:06.695  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:06.841  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:06.841  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - Task=111#0
+01-04 02:15:06.841  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:06.841  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - Task=111#0
+01-04 02:15:12.186  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:15:12.187  2292  2375 I VMSG    : processRequest:104 called for gcal
+01-04 02:15:12.187  2292  2378 I BstGCallService-JNI: gcallSetClipboardTextClbk called
+01-04 02:15:12.188  2292  2378 I BstGCallService-JNI: gcallSetClipboardTextClbk called
+01-04 02:15:13.076  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:15:13.084  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:13.095  1845  1845 D SurfaceFlinger: duplicate layer name: changing com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity to com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:13.096  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1568768
+01-04 02:15:13.099  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 identical 1 line
+01-04 02:15:13.101  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1568768
+01-04 02:15:13.105  2013  3248 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:15:13.105  2013  3248 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:15:13.105  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:15:13.105  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:13.105  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:13.105  2013  3248 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:15:13.109  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:13.109  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a070b6800, error=EGL_BAD_MATCH
+01-04 02:15:13.110  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:13.124  3378  3873 I chatty  : uid=10093(com.lagradost.cloudstream3) RenderThread identical 2 lines
+01-04 02:15:13.141  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:13.143  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:15:14.640  3378  3378 D Editor  : mBlink is not initialized, not sending cursor position to host
+01-04 02:15:14.642  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:14.707  2013  2024 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:15:14.707  2013  2024 D InputMethodManagerService: curAttribute inputType=17, isPassword=false, ime_enabled=true
+01-04 02:15:14.707  2013  2024 D InputMethodManagerService: bstSendSetInputMapperStatusAsync: calling BstHostCallManagerService onTextEditModeChange method, isTextEditMode: true
+01-04 02:15:14.707  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:15:14.707  2013  2024 D InputMethodManagerService: bstSendSetInputMapperStatusAsync: BstHostCallManagerService onTextEditModeChange method returned: 0
+01-04 02:15:14.707  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:14.707  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:14.707  2013  2045 I HCALL   : hcallOnTextEditModeChangedRpc(1)
+01-04 02:15:14.707  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:14.707  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:14.726  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 16384
+01-04 02:15:14.728  1845  1965 I chatty  : uid=1000(system) Binder:1845_2 identical 1 line
+01-04 02:15:14.729  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 16384
+01-04 02:15:14.735  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:14.735  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x7259fdf46f00, error=EGL_BAD_MATCH
+01-04 02:15:14.741  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:15.076  3378  3873 I chatty  : uid=10093(com.lagradost.cloudstream3) RenderThread identical 1 line
+01-04 02:15:15.116  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:15.241  1845  1965 W SurfaceFlinger: Attempting to set client state on removed layer: PopupWindow:d16b969#0
+01-04 02:15:15.241  1845  1965 W SurfaceFlinger: Attempting to destroy on removed layer: PopupWindow:d16b969#0
+01-04 02:15:17.336  1830  4201 I audio_hw_primary: choose pcmC0D0p for 0
+01-04 02:15:17.337  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.337  3378  3873 D OpenGLRenderer: endAllActiveAnimators on 0x725a07039a00 (RippleDrawable) with handle 0x725a070854a0
+01-04 02:15:17.339  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:17.342  2013  3248 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:15:17.342  2013  3248 D InputMethodManagerService: curAttribute inputType=17, isPassword=false, ime_enabled=false
+01-04 02:15:17.342  2013  3248 D InputMethodManagerService: bstSendSetInputMapperStatusAsync: calling BstHostCallManagerService onTextEditModeChange method, isTextEditMode: false
+01-04 02:15:17.342  2013  3248 D InputMethodManagerService: bstSendSetInputMapperStatusAsync: BstHostCallManagerService onTextEditModeChange method returned: 0
+01-04 02:15:17.342  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:15:17.342  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:17.342  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:17.342  2013  2045 I HCALL   : hcallOnTextEditModeChangedRpc(0)
+01-04 02:15:17.342  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:17.342  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:17.361  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.403  1842  1988 D AudioFlinger: mixer(0xe7883f80) throttle end: throttle time(30)
+01-04 02:15:17.415  2013  3248 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:17.426  1845  1845 D SurfaceFlinger: duplicate layer name: changing com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity to com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#2
+01-04 02:15:17.428  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1269760
+01-04 02:15:17.430  1845  1965 I chatty  : uid=1000(system) Binder:1845_2 identical 1 line
+01-04 02:15:17.432  1845  1965 D gralloc_default: gralloc_alloc: Creating ashmem region of size 1269760
+01-04 02:15:17.441  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:17.441  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x725a02163680, error=EGL_BAD_MATCH
+01-04 02:15:17.445  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.447  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.449  1845  1845 D SurfaceFlinger: duplicate layer name: changing Dim Layer for - Task=111 to Dim Layer for - Task=111#1
+01-04 02:15:17.458  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.460  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:17.491  1845  1965 W SurfaceFlinger: Attempting to set client state on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:17.491  1845  1965 W SurfaceFlinger: Attempting to destroy on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#1
+01-04 02:15:17.508  1845  2046 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - Task=111#0
+01-04 02:15:17.508  1845  2046 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - Task=111#0
+01-04 02:15:19.046  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:19.441  3378  3378 I NavComponent: Navigating to fragment: 2131362288
+01-04 02:15:19.443  2013  2024 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:15:19.443  2013  2024 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:15:19.443  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:15:19.443  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:19.443  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:19.443  2013  2024 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:15:19.444  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:19.445  3378  3873 D OpenGLRenderer: endAllActiveAnimators on 0x7259fdef8e00 (RippleDrawable) with handle 0x725a09094480
+01-04 02:15:19.446  2013  2024 D WindowManager: bstSendTopDisplayedOnFocusChange packageName : com.lagradost.cloudstream3  activityName : com.lagradost.cloudstream3.MainActivity  mouseAction  :   lastSentMouseAction : 
+01-04 02:15:19.465  3378  3378 I PLG     : updatePluginList = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json
+01-04 02:15:19.465  3378  3378 I PLG     : getPlugins = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json
+01-04 02:15:19.482  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:19.506  3378  3378 E CoilImgLoader: Error loading image: coil3.network.HttpException: HTTP 404
+01-04 02:15:19.533  3378  3378 E CoilImgLoader: Error loading image: coil3.network.HttpException: HTTP 404
+01-04 02:15:19.608  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#2
+01-04 02:15:19.608  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity#2
+01-04 02:15:19.624  1845  2992 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - Task=111#1
+01-04 02:15:19.624  1845  2992 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - Task=111#1
+01-04 02:15:21.741  3378  8645 I PLG     : handlePluginAction = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json, (https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json, SitePlugin(url=https://raw.githubusercontent.com/alyabroudy1/cs3/builds/FaselHDProvider.cs3, status=1, version=7, apiVersion=1, name=FaselHDProvider, internalName=FaselHDProvider, authors=[ImZaw], description=Watch Arabic movies and series from FaselHD, repositoryUrl=https://github.com/alyabroudy1/cs3, tvTypes=[TvSeries, Movie, Anime, AsianDrama], language=ar, iconUrl=https://www.google.com/s2/favicons?domain=faselhd.io&sz=%size%, fileSize=17791)), false
+01-04 02:15:21.742  3378  8645 D PluginManager: Downloading plugin: https://raw.githubusercontent.com/alyabroudy1/cs3/builds/FaselHDProvider.cs3 to /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3
+01-04 02:15:21.892  3378  8645 I PluginManager: Unloading plugin: /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3
+01-04 02:15:21.892  3378  8645 W PluginManager: Couldn't find plugin /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3
+01-04 02:15:21.893  3378  8645 I PluginManager: Loading plugin: PluginData(internalName=FaselHDProvider, url=https://raw.githubusercontent.com/alyabroudy1/cs3/builds/FaselHDProvider.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3, version=-2147483648)
+01-04 02:15:21.996  9458  9458 W dex2oat : Unexpected CPU variant for X86 using defaults: x86_64
+01-04 02:15:21.997  9458  9458 I dex2oat : The ClassLoaderContext is a special shared library.
+01-04 02:15:22.001  9458  9458 I dex2oat : /system/bin/dex2oat --dex-file=/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/FaselHDProvider.88718828.cs3 --output-vdex-fd=115 --oat-fd=116 --oat-location=/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/x86_64/FaselHDProvider.88718828.odex --compiler-filter=quicken --class-loader-context=&
+01-04 02:15:22.087  9458  9458 I dex2oat : dex2oat took 94.650ms (35.082ms cpu) (threads: 4) arena alloc=37KB (38456B) java alloc=64KB (65552B) native alloc=1125KB (1152528B) free=2MB (3041776B)
+01-04 02:15:22.091  3378  8645 I st.cloudstream: The ClassLoaderContext is a special shared library.
+01-04 02:15:22.105  3378  8645 I PluginInstance: Adding FaselHD (https://www.faselhds.biz) MainAPI
+01-04 02:15:22.105  3378  8645 I PluginManager: Loaded plugin FaselHDProvider successfully
+01-04 02:15:22.106  3378  8645 I PLG     : getPlugins = https://raw.githubusercontent.com/alyabroudy1/cs3/builds/repo.json
+01-04 02:15:22.106  3378  3378 I COMPACT : showToast = Plugin Loaded
+01-04 02:15:22.119  2013  2024 I NotificationService: cancelToast pkg=com.lagradost.cloudstream3 callback=android.app.ITransientNotification$Stub$Proxy@671dc29
+01-04 02:15:22.119  2013  2024 W NotificationService: Toast already cancelled. pkg=com.lagradost.cloudstream3 callback=android.app.ITransientNotification$Stub$Proxy@671dc29
+01-04 02:15:22.132  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 81920
+01-04 02:15:22.134  1845  2046 I chatty  : uid=1000(system) Binder:1845_3 identical 1 line
+01-04 02:15:22.135  1845  2046 D gralloc_default: gralloc_alloc: Creating ashmem region of size 81920
+01-04 02:15:22.141  3378  3873 E EGL_emulation: tid 3873: eglSurfaceAttrib(1726): error 0x3009 (EGL_BAD_MATCH)
+01-04 02:15:22.141  3378  3873 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x7259fde2fe00, error=EGL_BAD_MATCH
+01-04 02:15:22.145  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:22.147  3378  3873 D EGL_emulation: eglMakeCurrent: 0x725a0f2ee000: ver 3 2 (tinfo 0x725a10d436e0)
+01-04 02:15:22.159  3378  3378 E CoilImgLoader: Error loading image: coil3.network.HttpException: HTTP 404
+01-04 02:15:23.710  2013  5640 D InputMethodManagerService: packageName=com.lagradost.cloudstream3, activityName=.MainActivity
+01-04 02:15:23.710  2013  5640 D InputMethodManagerService: curAttribute inputType=0, isPassword=false, ime_enabled=false
+01-04 02:15:23.710  2013  2045 I HCALL   : hcallCommonCommandRpc(7, , )
+01-04 02:15:23.710  2013  5640 D InputMethodManagerService: ime_enabled = false is same as last value, no change
+01-04 02:15:23.710  2013  2045 I VMSG    : getHostBoundBuffer:94 called for hcal
+01-04 02:15:23.710  2013  2045 I VMSG    : processRequest:104 called for hcal
+01-04 02:15:23.765  3378  3393 W System  : A resource failed to call close. 
+01-04 02:15:23.765  3378  3393 W System  : A resource failed to call close. 
+01-04 02:15:24.116  2013  5640 W NotificationService: Toast already killed. pkg=com.lagradost.cloudstream3 callback=android.app.ITransientNotification$Stub$Proxy@e1c5747
+01-04 02:15:24.641  1845  2046 W SurfaceFlinger: Attempting to destroy on removed layer: af20d4f Toast#0
+01-04 02:15:25.622  2013  2036 W WindowManager: Unable to start animation, surface is null or no children.
+01-04 02:15:29.770  3378  3468 W st.cloudstream: Checksum mismatch for dex FaselHDProvider.88718828.cs3
+01-04 02:15:29.770  3378  3468 W st.cloudstream: Checksum mismatch for dex FaselHDProvider.88718828.cs3
+01-04 02:15:29.781  3378  3468 W st.cloudstream: Couldn't lock the profile file /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof: Failed to open file '/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof': No such file or directory
+01-04 02:15:29.781  3378  3468 W st.cloudstream: Could not forcefully load profile /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.comalyabroudy1cs3buildsrepo.json.859123176/oat/MyCimaProvider.-1155468169.cs3.cur.prof
+01-04 02:15:35.126  2013  2013 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@52514f3
+01-04 02:15:58.798  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:15:58.798  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:15:58.799  2519  9323 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:15:58.801  2519  9449 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:15:58.804  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:16:03.950  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:16:58.819  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:16:58.819  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:16:58.821  2519  9470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:16:58.822  2519  9323 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:16:58.822  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:17:03.951  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:17:12.785  3147  3260 I Finsky  : [115] Stats for Executor: BlockingExecutor uxm@5a97da9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 46]
+01-04 02:17:12.792  3147  3260 I Finsky  : [115] Stats for Executor: LightweightExecutor uxm@72a2f2e[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 243]
+01-04 02:17:12.793  3147  3260 I Finsky  : [115] Stats for Executor: bgExecutor uxm@2ea4acf[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 454]
+01-04 02:17:14.924  3147  3260 I Finsky  : [115] Stats for Executor: GrpcBackgroundExecutor uxm@ba71c5c[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1]
+01-04 02:17:23.749  3378  9482 D ApiError: -------------------------------------------------------------------
+01-04 02:17:23.749  3378  9482 D ApiError: safeApiCall: Timed out waiting for 120000 ms
+01-04 02:17:23.749  3378  9482 D ApiError: safeApiCall: Timed out waiting for 120000 ms
+01-04 02:17:23.750  3378  9482 W System.err: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 120000 ms
+01-04 02:17:23.752  3378  9482 W System.err: 	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:189)
+01-04 02:17:23.752  3378  9482 W System.err: 	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:157)
+01-04 02:17:23.752  3378  9482 W System.err: 	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:505)
+01-04 02:17:23.752  3378  9482 W System.err: 	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+01-04 02:17:23.752  3378  9482 W System.err: 	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+01-04 02:17:23.752  3378  9482 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+01-04 02:17:23.752  3378  9482 D ApiError: -------------------------------------------------------------------
+01-04 02:17:34.905  9338  9381 W .android.gms.u: Verification of void crxk.<clinit>() took 336.120ms
+01-04 02:17:35.684  9338  9381 W .android.gms.u: Verification of albd crxh.b(android.content.Context, android.os.Looper, alyn, java.lang.Object, albt, albu) took 779.352ms
+01-04 02:17:35.952  9338  9381 W .android.gms.u: Verification of void crxj.<init>() took 267.150ms
+01-04 02:17:36.508  9338  9389 W .android.gms.u: Verification of android.os.IInterface cryo.b(android.os.IBinder) took 334.786ms
+01-04 02:17:36.559  9338  9381 W .android.gms.u: Verification of void crws.d(java.lang.Object, java.lang.Object) took 386.793ms
+01-04 02:17:36.880  9338  9389 W .android.gms.u: Verification of void cryo.s(cryc, cryc, alcz) took 319.754ms
+01-04 02:17:36.952  9338  9381 W .android.gms.u: Verification of void com.google.android.gms.common.internal.RootTelemetryConfiguration.<clinit>() took 259.077ms
+01-04 02:17:37.526  9338  9389 W .android.gms.u: Verification of void cryo.t(java.lang.String, elgp, java.lang.String, int[], int, akgf, akey, android.content.Context, com.google.android.gms.usagereporting.ConsentInformation, cpsl) took 645.931ms
+01-04 02:17:38.964  9338  9389 W .android.gms.u: Verification of boolean crxz.gY(int, android.os.Parcel, android.os.Parcel) took 340.657ms
+01-04 02:17:39.362  9338  9362 W .android.gms.u: Verification of void com.google.android.gms.usagereporting.UsageReportingOptInOptions.<clinit>() took 248.941ms
+01-04 02:17:39.829  9338  9362 W .android.gms.u: Verification of java.util.List alce.f() took 465.988ms
+01-04 02:17:40.086  9338  9362 W .android.gms.u: Verification of java.lang.String alce.g() took 256.695ms
+01-04 02:17:40.808  9338  9381 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+01-04 02:17:58.837  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:17:58.837  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:17:58.839  2519  9470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:17:58.841  2519  9323 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:17:58.841  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:18:03.951  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:18:58.856  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:18:58.856  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:18:58.857  2519  9489 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:18:58.858  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:18:58.860  2519  9323 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:19:03.951  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:19:47.692  2519  9504 I CastDatabase: Saving the database
+01-04 02:19:47.699  2519  9504 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
+01-04 02:19:58.871  2758  2758 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:19:58.871  2758  2758 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:19:58.872  2519  9504 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+01-04 02:19:58.874  2519  9489 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+01-04 02:19:58.874  2758  2758 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.potokens.service.IntegrityTokenRefreshTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+01-04 02:20:03.952  1864  1890 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+01-04 02:20:11.083  2519  9489 I .gms.persisten: Explicit concurrent copying GC freed 170446(8MB) AllocSpace objects, 10(220KB) LOS objects, 49% free, 14MB/29MB, paused 45us total 152.375ms
+01-04 02:20:14.365  2758  8198 I gle.android.gm: Explicit concurrent copying GC freed 46949(2MB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 81us total 117.282ms
