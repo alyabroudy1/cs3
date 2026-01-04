@@ -34,33 +34,31 @@ jobs:
         run: |
           ./gradlew make makePluginsJson
           
-      - name: Create build folder and copy files
+      - name: Prepare files for commit
         run: |
-          mkdir -p build
-          find . -path ./build -prune -o -name "*.cs3" -exec cp {} build/ \;
-          if [ -f "build/plugins.json" ]; then
-            # plugins.json is already in build folder from makePluginsJson
-            echo "plugins.json found in build folder"
-          fi
+          # Copy plugins.json to root (like Arabico)
+          cp build/plugins.json . 2>/dev/null || true
+          # Create a separate folder for built extensions
+          mkdir -p repo_build
+          find . -path ./build -prune -o -path ./repo_build -prune -o -name "*.cs3" -print -exec cp {} repo_build/ \;
+          cp build/plugins.json repo_build/ 2>/dev/null || true
           
-      - name: Commit and push to main
+      - name: Commit and push
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add build/
-          git add plugins.json 2>/dev/null || true
-          # Copy plugins.json to root as well (like Arabico)
-          cp build/plugins.json . 2>/dev/null || true
-          git add plugins.json 2>/dev/null || true
-          git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          git push origin main
+          # Force add plugins.json to root
+          git add -f plugins.json 2>/dev/null || true
+          git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit on main"
+          git push origin main || true
           
-      - name: Also push to builds branch for compatibility
+      - name: Push to builds branch
         run: |
           git checkout --orphan builds
           git reset
-          cp build/*.cs3 . 2>/dev/null || true
+          # Copy files from build folder
+          cp build/*.cs3 . 2>/dev/null || find . -name "*.cs3" ! -path "./build/*" -exec cp {} . \;
           cp build/plugins.json . 2>/dev/null || true
-          git add *.cs3 plugins.json
+          git add -f *.cs3 plugins.json
           git commit -m "Build: $(date +'%Y-%m-%d %H:%M:%S')"
           git push -f origin builds
