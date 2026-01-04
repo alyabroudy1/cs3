@@ -1,0 +1,29 @@
+Including project: ExampleProvider
+Including project: FaselHDProvider
+Including project: MyCimaProvider
+> Task :MyCimaProvider:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :MyCimaProvider:preBuild UP-TO-DATE
+> Task :MyCimaProvider:preDebugBuild UP-TO-DATE
+> Task :MyCimaProvider:generateDebugResValues UP-TO-DATE
+> Task :MyCimaProvider:generateDebugResources UP-TO-DATE
+> Task :MyCimaProvider:packageDebugResources UP-TO-DATE
+> Task :MyCimaProvider:parseDebugLocalResources UP-TO-DATE
+> Task :MyCimaProvider:processDebugManifest UP-TO-DATE
+> Task :MyCimaProvider:generateDebugRFile UP-TO-DATE
+> Task :MyCimaProvider:compileDebugKotlin UP-TO-DATE
+> Task :MyCimaProvider:compileDex UP-TO-DATE
+> Task :MyCimaProvider:make UP-TO-DATE
+
+> Task :MyCimaProvider:deployWithAdb
+Deployed C:\Users\abu-o\AndroidStudioProjects\CloudstreamExtensions\MyCimaProvider\build\MyCimaProvider.cs3 to R5CW21KC1BM
+
+[Incubating] Problems report is available at: file:///C:/Users/abu-o/AndroidStudioProjects/CloudstreamExtensions/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1s
+9 actionable tasks: 1 executed, 8 up-to-date
